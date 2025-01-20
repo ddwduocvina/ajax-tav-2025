@@ -1,6 +1,6 @@
 // función ajax
 $.ajax({
-    url: './assets/js/texto.txt',
+    url: 'texto.txt',
     type: 'get',
     dataType: 'txt',
     success: function(respuesta){
